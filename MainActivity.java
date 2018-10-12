@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     int scoreTeamB;
     int scorefoulB;
     @Override
-    Button callbutton;
+    
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -108,9 +108,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 })
                 .show();}
-    public void callbutton(View view){
-       callbutton=(Button)findViewById(R.id.button2);
-        Intent intent=
+   
 
     }
 
